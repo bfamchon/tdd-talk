@@ -1,4 +1,4 @@
-const { draw } = require("./");
+const { draw } = require(".");
 
 
 const expectConwaySuite = (line, deep, ...expected) => {

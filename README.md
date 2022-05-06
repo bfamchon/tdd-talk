@@ -1,5 +1,26 @@
 # Conway
 
+## STEP 0:
+```javascript
+  expect(draw("1")).toBe("1\n11");
+```
+
+```javascript
+  const draw = line => {
+      return "1\n11";
+  };
+```
+
+## STEP 0.1:
+```javascript
+  expectConwaySuite("2", "2", "12");
+```
+
+```javascript
+  const draw = line => {
+      return line + "\n" + line.length + line.charAt(0);
+  };
+```
 
 ## STEP 1:
 ```javascript
