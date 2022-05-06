@@ -11,7 +11,7 @@
   };
 ```
 
-## STEP 0.1:
+## STEP 1:
 ```javascript
   expectConwaySuite("2", "2", "12");
 ```
@@ -22,7 +22,7 @@
   };
 ```
 
-## STEP 1:
+## STEP 2:
 ```javascript
   expectConwaySuite("22", "22", "22");
 ```
@@ -41,7 +41,7 @@
   };
 ```
 
-## STEP 2:
+## STEP 3:
 
 ```javascript
   expectConwaySuite("21", "21", "1211");
@@ -61,7 +61,7 @@ const drawNextLine = (line) => {
 ```
 
 
-## STEP 3:
+## STEP 4:
 
 ```javascript
   expectConwaySuite("213", "213", "121113");
@@ -81,8 +81,9 @@ const drawLineChunks = (line, chunks = "") => {
 const drawNextLine = (line) => {
     return drawLineChunks(line);
 }
+```
 
-## STEP 4:
+## STEP 5:
 
 ```javascript
   expectConwaySuite("2331", "2331", "122312");
@@ -106,7 +107,7 @@ const drawLineChunks = (line, chunks = "") => {
 }
 ```
 
-## STEP 5:
+## STEP 6:
 
 ```javascript
   expectConwaySuite("1", 3, "1", "11", "21", "1211");
